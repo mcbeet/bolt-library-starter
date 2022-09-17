@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.6 (2022-09-17)
+### Fix
+* Python-semantic-release already checks the branch ([`7f6ac18`](https://github.com/mcbeet/bolt-library-starter/commit/7f6ac1893bec6265374d8e8edd55efec89e1e48c))
+
 ## v0.2.5 (2022-09-17)
 ### Fix
 * Reformat so that black doesn't line wrap with longer names ([`3fb6104`](https://github.com/mcbeet/bolt-library-starter/commit/3fb61047e92fd7f3bbd27d780c533af2209ff590))
