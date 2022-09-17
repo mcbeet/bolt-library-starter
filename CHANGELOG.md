@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.4 (2022-09-17)
+### Fix
+* Strict type checking ([`36c14df`](https://github.com/mcbeet/bolt-library-starter/commit/36c14df5be8ccaf0fea8104431f3a9a994a46e86))
+
 ## v0.2.3 (2022-09-17)
 ### Fix
 * Trigger main workflow after init ([`b36a46a`](https://github.com/mcbeet/bolt-library-starter/commit/b36a46a2f82e6f45ce482ceba9f531d002a787c0))
