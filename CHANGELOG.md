@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.7 (2022-09-17)
+### Fix
+* Actually it doesn't check the branch so this is needed ([`833a55b`](https://github.com/mcbeet/bolt-library-starter/commit/833a55bd1385b86a461a4664207b7330323328fc))
+
 ## v0.2.6 (2022-09-17)
 ### Fix
 * Python-semantic-release already checks the branch ([`7f6ac18`](https://github.com/mcbeet/bolt-library-starter/commit/7f6ac1893bec6265374d8e8edd55efec89e1e48c))
