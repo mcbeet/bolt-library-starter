@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fixme"
-version = "0.1.1"
+version = "0.2.0"
 description = "fixme_repo_description"
 authors = ["fixme_user_name <fixme_user_email>"]
 license = "MIT"
