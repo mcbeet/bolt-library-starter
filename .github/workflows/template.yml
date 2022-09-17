@@ -60,12 +60,13 @@ jobs:
           git config --global user.email "$(git show -s --format=%ae)"
           git add -A
           git commit --amend -m "chore: setup project from template"
-          git push -f origin HEAD
+          git push -f origin main
 
-          for i in {1..10}; do
+          for i in {1..5}; do
             for id in $(gh api "/repos/$GH_REPOSITORY/actions/workflows/main.yml/runs?status=in_progress" | jq -r '.workflow_runs[].id'); do
               gh api -XPOST "/repos/$GH_REPOSITORY/actions/runs/$id/cancel"
+              gh api -XPOST "/repos/$GH_REPOSITORY/actions/workflows/main.yml/dispatches" -f ref=main
               exit 0
             done
-            sleep 3
+            sleep 5
           done
