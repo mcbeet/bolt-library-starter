@@ -38,6 +38,10 @@ jobs:
         run: |
           set -e
 
+          for id in $(gh api "/repos/$GH_REPOSITORY/actions/workflows/main.yml/runs?status=in_progress" | jq -r '.workflow_runs[].id'); do
+            gh api -XPOST "/repos/$GH_REPOSITORY/actions/runs/$id/cancel"
+          done
+
           package_name=$(basename "$PWD" | sed "s/[^a-zA-Z0-9]/_/g" | tr '[:upper:]' '[:lower:]')
           repo=$(gh api "/repos/$GH_REPOSITORY")
 
