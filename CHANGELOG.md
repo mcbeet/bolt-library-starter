@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.5 (2022-09-17)
+### Fix
+* Reformat so that black doesn't line wrap with longer names ([`3fb6104`](https://github.com/mcbeet/bolt-library-starter/commit/3fb61047e92fd7f3bbd27d780c533af2209ff590))
+
 ## v0.2.4 (2022-09-17)
 ### Fix
 * Strict type checking ([`36c14df`](https://github.com/mcbeet/bolt-library-starter/commit/36c14df5be8ccaf0fea8104431f3a9a994a46e86))
