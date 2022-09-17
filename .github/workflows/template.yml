@@ -45,6 +45,7 @@ jobs:
           echo "$README" > README.md
           sed -i 's/version = ".+"/version = "0.0.0"/' pyproject.toml
           sed -i 's/__version__ = ".+"/__version__ = "0.0.0"/' "$package_name/__init__.py"
+          rm CHANGELOG.md
           rm .github/workflows/template.yml
 
           files=$(find * -type f)
