@@ -23,6 +23,7 @@ python = "^3.10"
 beet = "^0.72.1"
 mecha = "^0.56.0"
 bolt = "^0.19.1"
+lectern = "^0.24.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.1.3"

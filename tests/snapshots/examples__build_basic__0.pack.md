@@ -13,8 +13,6 @@
 }
 ```
 
-### fixme
-
 ### demo
 
 `@function demo:foo`
