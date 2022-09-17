@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.2 (2022-09-17)
+### Fix
+* Try to cancel the main workflow repeatedly ([`9629ab1`](https://github.com/mcbeet/bolt-library-starter/commit/9629ab1859b016c76fc7b510bab0be8e93b3a54f))
+
 ## v0.2.1 (2022-09-17)
 ### Fix
 * Cancel main workflow at the end ([`0493425`](https://github.com/mcbeet/bolt-library-starter/commit/0493425a3f73c0897126156a29b951d85de8c823))
