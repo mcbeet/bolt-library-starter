@@ -6,4 +6,10 @@ from beet.contrib.load import load
 
 
 def beet_default(ctx: Context):
-    ctx.require(load(data_pack={"data/fixme/modules": "@fixme/modules"}))
+    ctx.require(
+        load(
+            data_pack={
+                "data/fixme/modules": "@fixme/modules",
+            },
+        ),
+    )
