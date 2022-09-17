@@ -8,5 +8,5 @@ __pycache__/
 dist/
 
 # Cache
-.pytest_cache/
 .beet_cache/
+.pytest_cache/
