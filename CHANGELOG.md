@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.3 (2022-09-17)
+### Fix
+* Trigger main workflow after init ([`b36a46a`](https://github.com/mcbeet/bolt-library-starter/commit/b36a46a2f82e6f45ce482ceba9f531d002a787c0))
+
 ## v0.2.2 (2022-09-17)
 ### Fix
 * Try to cancel the main workflow repeatedly ([`9629ab1`](https://github.com/mcbeet/bolt-library-starter/commit/9629ab1859b016c76fc7b510bab0be8e93b3a54f))
