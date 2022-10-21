@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.8 (2022-10-21)
+### Fix
+* Update deps ([`5eaa06b`](https://github.com/mcbeet/bolt-library-starter/commit/5eaa06bd48c46d248ee1940ee20f5613c64d224e))
+
 ## v0.2.7 (2022-09-17)
 ### Fix
 * Actually it doesn't check the branch so this is needed ([`833a55b`](https://github.com/mcbeet/bolt-library-starter/commit/833a55bd1385b86a461a4664207b7330323328fc))
